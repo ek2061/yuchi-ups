@@ -7,7 +7,7 @@ import RootNavigator from "./navigator/RootNavigator";
 import utilities from "./tailwind.json";
 
 const client = new ApolloClient({
-  uri: "http://localhost:5001/api/guiding-ostrich",
+  uri: "http://192.168.13.84:5001/api/guiding-ostrich",
   cache: new InMemoryCache(),
 });
 
