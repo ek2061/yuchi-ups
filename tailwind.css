@@ -48,6 +48,10 @@
   margin-top: 1.25rem
 }
 
+.ml-2 {
+  margin-left: 0.5rem
+}
+
 .block {
   display: block
 }
@@ -109,6 +113,11 @@
   padding: 1.25rem
 }
 
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem
@@ -116,6 +125,15 @@
 
 .py-5 {
   padding-top: 1.25rem;
+  padding-bottom: 1.25rem
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem
+}
+
+.pb-5 {
   padding-bottom: 1.25rem
 }
 
@@ -141,11 +159,6 @@
   line-height: 1.25rem
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem
-}
-
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem
@@ -159,6 +172,11 @@
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem
 }
 
 .font-bold {
@@ -180,4 +198,14 @@
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity))
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity))
 }

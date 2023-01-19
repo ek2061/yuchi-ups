@@ -1,6 +1,7 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import React from "react";
 import ModalScreen from "../screens/ModalScreen";
+import OrdersScreen from "../screens/OrdersScreen";
 import TabNavigator from "./TabNavigator";
 
 export type RootStackParamList = {
@@ -28,6 +29,10 @@ const RootNavigator = () => {
           name="MyModal"
           component={ModalScreen}
         />
+      </RootStack.Group>
+
+      <RootStack.Group>
+        <RootStack.Screen name="Order" component={OrdersScreen} />
       </RootStack.Group>
     </RootStack.Navigator>
   );
